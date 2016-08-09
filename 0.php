@@ -1,5 +1,7 @@
 <?php
 
+/*
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -7,12 +9,13 @@ if (!isset($_SESSION)) {
   session_start();
 }
 
-header('Content-Type: text/html; charset=UTF-8');
-
 if($_GET["dXVpZA"] <> $_SESSION['dXVpZA']){
 	http_response_code(403);
 	die();
 }
+*/
+
+header('Content-Type: text/html; charset=UTF-8');
 
 if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 	

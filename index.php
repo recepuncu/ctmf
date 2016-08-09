@@ -1,5 +1,7 @@
 <?php
 
+/*
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -8,6 +10,10 @@ if (!isset($_SESSION)) {
 }
 
 $_SESSION['dXVpZA'] = md5(uniqid(mt_rand(), true));
+
+*/
+
+$dXVpZA = md5(uniqid(mt_rand(), true));
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -68,7 +74,7 @@ $_SESSION['dXVpZA'] = md5(uniqid(mt_rand(), true));
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
 <script type="text/javascript">
-var YXBw=angular.module("Ym9yc2E",[]);YXBw.controller("Ym9yc2FjdHJs",function($scope,$http){$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $_SESSION['dXVpZA']; ?>&bWV0aG9k=cHJvZHVjdF9saXN0").then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});$scope.YnVs=function(c2VhcmNoX3dvcmQ_val){$scope.ZGF0YVJvd3M=[];$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $_SESSION['dXVpZA']; ?>&bWV0aG9k=cHJvZHVjdF9saXN0&c2VhcmNoX3dvcmQ="+c2VhcmNoX3dvcmQ_val).then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});};});
+var YXBw=angular.module("Ym9yc2E",[]);YXBw.controller("Ym9yc2FjdHJs",function($scope,$http){$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $dXVpZA; ?>&bWV0aG9k=cHJvZHVjdF9saXN0").then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});$scope.YnVs=function(c2VhcmNoX3dvcmQ_val){$scope.ZGF0YVJvd3M=[];$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $dXVpZA; ?>&bWV0aG9k=cHJvZHVjdF9saXN0&c2VhcmNoX3dvcmQ="+c2VhcmNoX3dvcmQ_val).then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});};});
 </script>
 </body>
 </html>
