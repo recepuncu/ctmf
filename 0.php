@@ -29,7 +29,8 @@ if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 	$site = file_get_contents( $site_url );
 	$dom = new DOMDocument;
 	libxml_use_internal_errors(true);
-	$dom->loadHTML(mb_convert_encoding($site, 'HTML-ENTITIES', 'UTF-8'));
+	//$dom->loadHTML(mb_convert_encoding($site, 'HTML-ENTITIES', 'UTF-8'));
+	$dom->loadHTML($site);
 	$xpath = new DOMXPath($dom);
 	
 	$rows = $xpath->query('//div[@id="view"]//li[contains(@class, "column")]');
