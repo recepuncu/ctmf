@@ -51,7 +51,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
           </thead>
           <tbody>
             <tr ng-repeat="ZGF0YSBSb3c in ZGF0YVJvd3M">
-              <td><span>{{ZGF0YSBSb3c.sallerName}}</span></td>
+              <td><a href="{{ZGF0YSBSb3c.sallerInfo}}" target="new">{{ZGF0YSBSb3c.sallerName}}</a></td>
               <td><a href="{{ZGF0YSBSb3c.url}}" target="new">{{ZGF0YSBSb3c.productName}}</a></td>
               <td class="text-right"><span>{{ZGF0YSBSb3c.price}}</span></td>
               <td><span>{{ZGF0YSBSb3c.proStatus}}</span></td>

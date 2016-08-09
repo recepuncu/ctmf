@@ -48,6 +48,11 @@ if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 		if($sallerName->length>0)
 			$table_row["sallerName"] = trim($sallerName->item(0)->textContent);	
 		
+		$table_row["sallerInfo"] = "";
+		$sallerInfo = $xpath->query('.//a[contains(@class, "sallerInfo")]/@href', $row);	
+		if($sallerInfo->length>0)
+			$table_row["sallerInfo"] = trim($sallerInfo->item(0)->textContent);		
+		
 		$table_row["productName"] = "";
 		$productName = $xpath->query('.//h3[contains(@class, "productName")]', $row);	
 		if($productName->length>0)
