@@ -29,6 +29,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 
 <body ng-controller="Ym9yc2FjdHJs" ng-cloak>
 <h1 class="text-center">Cep Telefonu ve Tablet Fiyatları</h1>
+<h2 class="text-center">En iyi 25 fiyat</h2>
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
