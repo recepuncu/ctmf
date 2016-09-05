@@ -27,13 +27,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 </head>
 
 <body ng-controller="Ym9yc2FjdHJs" ng-cloak>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="./">Cep Telefonu ve Tablet Fiyatları</a>
-    </div>
-  </div>
-</nav>
+<h1 class="text-center">Cep Telefonu ve Tablet Fiyatları</h1>
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
@@ -72,10 +66,10 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
           </thead>
           <tbody>
             <tr ng-repeat="ZGF0YSBSb3c in ZGF0YVJvd3M">
-              <td><a href="{{ZGF0YSBSb3c.sallerInfo}}" target="new">{{ZGF0YSBSb3c.sallerName}}</a></td>
-              <td><a href="{{ZGF0YSBSb3c.url}}" target="new">{{ZGF0YSBSb3c.productName}}</a></td>
-              <td class="text-right"><span>{{ZGF0YSBSb3c.price}}</span></td>
-              <td><span>{{ZGF0YSBSb3c.proStatus}}</span></td>
+              <td><a href="{{ZGF0YSBSb3c.sallerInfo}}" target="new"><span itemprop="seller">{{ZGF0YSBSb3c.sallerName}}</span></a></td>
+              <td><a href="{{ZGF0YSBSb3c.url}}" target="new"><span itemprop="name">{{ZGF0YSBSb3c.productName}}</span></a></td>
+              <td class="text-right"><span itemprop="price">{{ZGF0YSBSb3c.price}}</span></td>
+              <td><span itemprop="availability">{{ZGF0YSBSb3c.proStatus}}</span></td>
             </tr>
             <tr ng-show="eXVrbGVuaXlvcg">
               <td colspan="4"><div class="text-center"><span>Yükleniyor...</span></div></td>
