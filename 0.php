@@ -27,7 +27,7 @@ if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 	}
 	
 	// ***** CONSTS *****
-	$site_url = "http://www.n11.com/telefon-ve-aksesuarlari/cep-telefonu?q={$c2VhcmNoX3dvcmQ}&srt=PRICE_LOW";
+	$site_url = "http://www.n11.com/".$_GET['c2VhcmNoX2NhdGVnb3J5']."?q={$c2VhcmNoX3dvcmQ}&srt=PRICE_LOW";
 	$site = file_get_contents( $site_url );
 	$dom = new DOMDocument;
 	libxml_use_internal_errors(true);

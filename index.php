@@ -31,7 +31,19 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
     <div class="col-sm-4 col-sm-offset-4">
       <p>&nbsp;</p>
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Aranacak kelimeleri buraya girin..." autofocus="autofocus" ng-model="c2VhcmNoX3dvcmQ" ng-init="c2VhcmNoX3dvcmQ='samsung note 4'" key-enter="YnVs(c2VhcmNoX3dvcmQ)">
+        <span class="input-group-btn">
+		  <div class="btn-group" role="group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			{{ a2F0ZWdvcmk.label }}
+			  <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+			  <li><a href="javascript:void(0);" ng-click="a2F0ZWdvcmk.val='telefon-ve-aksesuarlari/cep-telefonu'; a2F0ZWdvcmk.label='Cep Telefonu';">Cep Telefonu</a></li>
+			  <li><a href="javascript:void(0);" ng-click="a2F0ZWdvcmk.val='bilgisayar/ipad-ve-tablet'; a2F0ZWdvcmk.label='Ipad ve Tablet';">Ipad ve Tablet</a></li>
+			</ul>
+		  </div>        
+        </span>
+		<input type="text" class="form-control" placeholder="Aranacak kelimeleri buraya girin..." autofocus="autofocus" ng-model="c2VhcmNoX3dvcmQ" ng-init="c2VhcmNoX3dvcmQ='samsung note 4'" key-enter="YnVs(c2VhcmNoX3dvcmQ)">
         <span class="input-group-btn">
         <button class="btn btn-default" type="button" ng-click="YnVs(c2VhcmNoX3dvcmQ)"><span class="glyphicon glyphicon-search"></span>&nbsp;Bul</button>
         </span> </div>      
@@ -75,7 +87,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
 <script type="text/javascript">
-var YXBw=angular.module("Ym9yc2E",[]);YXBw.directive('keyEnter',function(){return function(scope,element,attrs){element.bind("keydown keypress",function(event){if(event.which===13){scope.$apply(function(){scope.$eval(attrs.keyEnter);});event.preventDefault();}});};});YXBw.controller("Ym9yc2FjdHJs",function($scope,$http){$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $dXVpZA; ?>&bWV0aG9k=cHJvZHVjdF9saXN0").then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});$scope.YnVs=function(c2VhcmNoX3dvcmQ_val){$scope.ZGF0YVJvd3M=[];$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $dXVpZA; ?>&bWV0aG9k=cHJvZHVjdF9saXN0&c2VhcmNoX3dvcmQ="+c2VhcmNoX3dvcmQ_val).then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});};});
+var YXBw=angular.module("Ym9yc2E",[]);YXBw.directive('keyEnter',function(){return function(scope,element,attrs){element.bind("keydown keypress",function(event){if(event.which===13){scope.$apply(function(){scope.$eval(attrs.keyEnter);});event.preventDefault();}});};});YXBw.controller("Ym9yc2FjdHJs",function($scope,$http){$scope.a2F0ZWdvcmk={val:'telefon-ve-aksesuarlari/cep-telefonu',label:'Cep Telefonu'};$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $dXVpZA; ?>&bWV0aG9k=cHJvZHVjdF9saXN0&c2VhcmNoX2NhdGVnb3J5="+$scope.a2F0ZWdvcmk.val).then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});$scope.YnVs=function(c2VhcmNoX3dvcmQ_val){$scope.ZGF0YVJvd3M=[];$scope.eXVrbGVuaXlvcg=true;$http.get("0.php?dXVpZA=<?php echo $dXVpZA; ?>&bWV0aG9k=cHJvZHVjdF9saXN0&c2VhcmNoX2NhdGVnb3J5="+$scope.a2F0ZWdvcmk.val+"&c2VhcmNoX3dvcmQ="+c2VhcmNoX3dvcmQ_val).then(function(success_response){$scope.ZGF0YVJvd3M=success_response.data;$scope.eXVrbGVuaXlvcg=false;});};});
 </script>
 </body>
 </html>
