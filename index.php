@@ -21,14 +21,22 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="recepuncu@gmail.com" />
-<title>Cep Telefonu - Modelleri & Fiyatları</title>
+<title>Cep Telefonu ve Tablet Fiyatları</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="http://bootswatch.com/simplex/bootstrap.min.css" rel="stylesheet" />
 </head>
 
 <body ng-controller="Ym9yc2FjdHJs" ng-cloak>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="./">Cep Telefonu ve Tablet Fiyatları</a>
+    </div>
+  </div>
+</nav>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-4 col-sm-offset-4">
+    <div class="col-sm-6 col-sm-offset-3">
       <p>&nbsp;</p>
       <div class="input-group">
         <span class="input-group-btn">
