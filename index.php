@@ -51,7 +51,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 			</ul>
 		  </div>        
         </span>
-		<input type="text" class="form-control" placeholder="Aranacak kelimeleri buraya girin..." autofocus="autofocus" ng-model="c2VhcmNoX3dvcmQ" ng-init="c2VhcmNoX3dvcmQ='samsung note 4'" key-enter="YnVs(c2VhcmNoX3dvcmQ)">
+		<input type="text" class="form-control" placeholder="Aranacak kelimeleri buraya girin..." autofocus="autofocus" ng-model="c2VhcmNoX3dvcmQ" ng-init="c2VhcmNoX3dvcmQ='samsung n920'" key-enter="YnVs(c2VhcmNoX3dvcmQ)">
         <span class="input-group-btn">
         <button class="btn btn-default" type="button" ng-click="YnVs(c2VhcmNoX3dvcmQ)"><span class="glyphicon glyphicon-search"></span>&nbsp;Bul</button>
         </span> </div>      
