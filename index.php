@@ -19,9 +19,9 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="tr" ng-app="Ym9yc2E">
 <head>
+<meta name="description" content="N11 de tüm firmalar arasındaki en ucuz Cep Telefonu ve Tablet Fiyatları">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="recepuncu@gmail.com" />
-<meta name="description" content="N11 de tüm firmalar arasındaki en ucuz Cep Telefonu ve Tablet Fiyatları">
 <title>Cep Telefonu ve Tablet Fiyatları</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="bootstrap.custom.min.css" rel="stylesheet" />
