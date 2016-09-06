@@ -71,9 +71,9 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
           <thead>
             <tr>
               <th scope="col" class="text-center">Sıra</th>
-			  <th scope="col" class="text-center">Satıcı Adı</th>
+			  <th scope="col" class="text-center">Satıcı</th>
 			  <th scope="col" class="text-center">Fiyat</th>
-              <th scope="col" class="text-center">Ürün Adı</th>              
+              <th scope="col" class="text-center">Ürün</th>              
               <th scope="col" class="text-center">Durum</th>
             </tr>
           </thead>
