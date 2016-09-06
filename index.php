@@ -54,6 +54,12 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
       <p>&nbsp;</p>
     </div>
   </div>
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>  
   <div class="row">
     <div class="col-xs-12">
       <div class="table-responsive">
