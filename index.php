@@ -78,7 +78,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
             </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="ZGF0YSBSb3c in ZGF0YVJvd3M">
+            <tr ng-repeat="ZGF0YSBSb3c in ZGF0YVJvd3M" ng-class="$index  == 0 ? 'success' : ''">
 			  <td class="text-center">
 				<span class="label label-success" ng-show="($index + 1) <= 3">{{$index + 1}}</span>
 				<span class="label label-warning" ng-show="($index + 1) > 3 && ($index + 1) <= 5">{{$index + 1}}</span>
@@ -86,7 +86,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 				<span class="label label-default" ng-show="($index + 1) > 10">{{$index + 1}}</span>
 			  </td>
               <td><a href="{{ZGF0YSBSb3c.sallerInfo}}" target="new"><span itemprop="seller">{{ZGF0YSBSb3c.sallerName}}</span></a></td>
-			  <td class="text-right"><span itemprop="price">{{ZGF0YSBSb3c.price}}</span></td>
+			  <td class="text-right"><span itemprop="price" ng-class="$index  == 0 ? 'badge' : ''">{{ZGF0YSBSb3c.price}}</span></td>
               <td><a href="{{ZGF0YSBSb3c.url}}" target="new"><span itemprop="name">{{ZGF0YSBSb3c.productName}}</span></a></td>              
               <td><span itemprop="availability">{{ZGF0YSBSb3c.proStatus}}</span></td>
             </tr>
