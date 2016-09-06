@@ -32,8 +32,14 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 </head>
 
 <body ng-controller="Ym9yc2FjdHJs" ng-cloak>
-<h1 class="text-center">Cep Telefonu ve Tablet</h1>
-<h2 class="text-center">En iyi fiyatlar</h2>
+<div class="container-fluid">
+  <div class="row">
+	<div class="col-sm-12">
+		<h1 class="text-center">Cep Telefonu ve Tablet</h1>
+		<h2 class="text-center">En iyi fiyatlar</h2>
+	</div>
+  </div>	
+</div>
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
