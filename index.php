@@ -63,7 +63,7 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
   <div class="row">
     <div class="col-xs-12">
       <div class="table-responsive">
-        <table id="table" class="table table-bordered table-hover" summary="Cep Telefonu - Modelleri & Fiyatları">
+        <table id="table" class="table table-bordered table-striped table-hover" summary="Cep Telefonu - Modelleri & Fiyatları">
           <thead>
             <tr>
               <th scope="col" class="text-center">Sıra</th>
