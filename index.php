@@ -21,15 +21,15 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="recepuncu@gmail.com" />
-<meta name="description" content="N11 de tüm firmalar arasındaki en ucuz 25 Cep Telefonu ve Tablet Fiyatları">
+<meta name="description" content="N11 de tüm firmalar arasındaki en ucuz Cep Telefonu ve Tablet Fiyatları">
 <title>Cep Telefonu ve Tablet Fiyatları</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="bootstrap.custom.min.css" rel="stylesheet" />
 </head>
 
 <body ng-controller="Ym9yc2FjdHJs" ng-cloak>
-<h1 class="text-center">Cep Telefonu ve Tablet Fiyatları</h1>
-<h2 class="text-center">En iyi 25 fiyat</h2>
+<h1 class="text-center">Cep Telefonu ve Tablet</h1>
+<h2 class="text-center">En iyi fiyatlar</h2>
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
@@ -60,7 +60,8 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
         <table id="table" class="table table-bordered table-hover" summary="Cep Telefonu - Modelleri & Fiyatları">
           <thead>
             <tr>
-              <th scope="col" class="text-center">Satıcı Adı</th>
+              <th scope="col" class="text-center">Sıra</th>
+			  <th scope="col" class="text-center">Satıcı Adı</th>
               <th scope="col" class="text-center">Ürün Adı</th>
               <th scope="col" class="text-center">Fiyat</th>
               <th scope="col" class="text-center">Durum</th>
@@ -68,13 +69,19 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
           </thead>
           <tbody>
             <tr ng-repeat="ZGF0YSBSb3c in ZGF0YVJvd3M">
+			  <td class="text-center">
+				<span class="label label-success" ng-show="($index + 1) <= 3">{{$index + 1}}</span>
+				<span class="label label-warning" ng-show="($index + 1) > 3 && ($index + 1) <= 5">{{$index + 1}}</span>
+				<span class="label label-danger" ng-show="($index + 1) > 5 && ($index + 1) <= 10">{{$index + 1}}</span>
+				<span class="label label-default" ng-show="($index + 1) > 10">{{$index + 1}}</span>
+			  </td>
               <td><a href="{{ZGF0YSBSb3c.sallerInfo}}" target="new"><span itemprop="seller">{{ZGF0YSBSb3c.sallerName}}</span></a></td>
               <td><a href="{{ZGF0YSBSb3c.url}}" target="new"><span itemprop="name">{{ZGF0YSBSb3c.productName}}</span></a></td>
               <td class="text-right"><span itemprop="price">{{ZGF0YSBSb3c.price}}</span></td>
               <td><span itemprop="availability">{{ZGF0YSBSb3c.proStatus}}</span></td>
             </tr>
             <tr ng-show="eXVrbGVuaXlvcg">
-              <td colspan="4"><div class="text-center"><span>Yükleniyor...</span></div></td>
+              <td colspan="5"><div class="text-center"><span>Yükleniyor...</span></div></td>
             </tr>
           </tbody>
         </table>
