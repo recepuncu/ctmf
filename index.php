@@ -25,7 +25,8 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 <title>Cep Telefonu ve Tablet Fiyatları</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="bootstrap.custom.min.css" rel="stylesheet" />
-<meta name="theme-color" content="#d9831f">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<meta name="theme-color" content="#d9831f" />
 </head>
 
 <body ng-controller="Ym9yc2FjdHJs" ng-cloak>
