@@ -72,8 +72,8 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
             <tr>
               <th scope="col" class="text-center">Sıra</th>
 			  <th scope="col" class="text-center">Satıcı Adı</th>
-              <th scope="col" class="text-center">Ürün Adı</th>
-              <th scope="col" class="text-center">Fiyat</th>
+			  <th scope="col" class="text-center">Fiyat</th>
+              <th scope="col" class="text-center">Ürün Adı</th>              
               <th scope="col" class="text-center">Durum</th>
             </tr>
           </thead>
@@ -86,8 +86,8 @@ $dXVpZA = md5(uniqid(mt_rand(), true));
 				<span class="label label-default" ng-show="($index + 1) > 10">{{$index + 1}}</span>
 			  </td>
               <td><a href="{{ZGF0YSBSb3c.sallerInfo}}" target="new"><span itemprop="seller">{{ZGF0YSBSb3c.sallerName}}</span></a></td>
-              <td><a href="{{ZGF0YSBSb3c.url}}" target="new"><span itemprop="name">{{ZGF0YSBSb3c.productName}}</span></a></td>
-              <td class="text-right"><span itemprop="price">{{ZGF0YSBSb3c.price}}</span></td>
+			  <td class="text-right"><span itemprop="price">{{ZGF0YSBSb3c.price}}</span></td>
+              <td><a href="{{ZGF0YSBSb3c.url}}" target="new"><span itemprop="name">{{ZGF0YSBSb3c.productName}}</span></a></td>              
               <td><span itemprop="availability">{{ZGF0YSBSb3c.proStatus}}</span></td>
             </tr>
             <tr ng-show="eXVrbGVuaXlvcg">
