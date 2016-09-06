@@ -21,7 +21,7 @@ header('Content-Type: text/html; charset=UTF-8');
 
 if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 	
-	$c2VhcmNoX3dvcmQ = "samsung+n920";
+	$c2VhcmNoX3dvcmQ = "LG+G4+32+GB";
 	if(isset($_GET["c2VhcmNoX3dvcmQ"]) && !empty($_GET["c2VhcmNoX3dvcmQ"])){
 		$c2VhcmNoX3dvcmQ = str_replace(" ", "+", $_GET["c2VhcmNoX3dvcmQ"]);
 	}
