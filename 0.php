@@ -59,7 +59,7 @@ if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 			$table_row["productName"] = trim($productName->item(0)->textContent);
 	
 		$table_row["price"] = "";
-		$price = $xpath->query('.//a[contains(@itemprop, "newPrice")]/ins', $row);	
+		$price = $xpath->query('.//a[contains(@class, "newPrice")]/ins', $row);	
 		if($price->length>0)
 			$table_row["price"] = trim($price->item(0)->textContent);
 			
