@@ -64,7 +64,7 @@ if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 			$table_row["price"] = trim($price->item(0)->textContent);
 			
 		$table_row["url"] = "";
-		$url = $xpath->query('.//a[contains(@itemprop, "url")]/@href', $row);	
+		$url = $xpath->query('.//a[contains(@itemprop, "data-id")]/@href', $row);	
 		if($url->length>0)
 			$table_row["url"] = trim($url->item(0)->textContent);	
 				
