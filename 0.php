@@ -78,6 +78,6 @@ if($_GET["bWV0aG9k"]=="cHJvZHVjdF9saXN0"){
 	
 	header('Content-Type: application/json; charset=utf-8');
 	echo json_encode($table);
-	return;
+	exit;
 }
 
